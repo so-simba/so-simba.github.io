@@ -14,7 +14,8 @@ permalink: /team/
 - **<Name>**, <Affiliation> — Altimetry & tides
 - **<Name>**, <Affiliation> — Data management & QA/QC
 
-## Collaborators
-- NORCE Norwegian Research Centre
-- <Partner 2>
-- <Partner 3>
+<div class="partners-grid">
+{% for partner in site.data.partners %}
+  {% include partner-card.html partner=partner %}
+{% endfor %}
+</div>
