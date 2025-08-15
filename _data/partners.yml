@@ -1,18 +1,23 @@
 - name: NORCE Norwegian Research Centre
+  role: Prime contractor and scientific lead. Leader of WP2.
   url: https://www.norceresearch.no/
   logo: /assets/img/logos/NORCE_Logo.png
   researchers:
-    - { name: "Robert Ricker", role: "Sea-ice remote sensing", link: "mailto:rori@norceresearch.no" }
-    - { name: "Jane Doe", role: "Altimetry", link: "" }
+    - { name: "Robert Ricker", role: "Scientific Lead", link: "mailto:rori@norceresearch.no" }
+    - { name: "Marion Bocquet", role: "Satellite altimetry, sea ice thickness products", link: "" }
 
 - name: Norwegian Meteorological Institute
+  role: Leader of WP3.
   url: https://www.met.no/en
   logo: /assets/img/logos/METNorway.jpg
   researchers:
-    - { name: "Alice Example", role: "Modeling", link: "https://orcid.org/0000-0000-0000-0000" }
+    - { name: "Thomas Lavergne", role: "Passive microwave remoste sensing of sea ice", link: "" }
 
 - name: University of Bremen
+  role: Leader of WP5.
   url: https://www.uni-bremen.de
   logo: /assets/img/logos/UHB_Logo_Web_RGB.png
   researchers:
-    - { name: "Bob Example", role: "Data mgmt", link: "" }
+    - { name: "Gunnar Spreen", role: "Passive microwave remoste sensing of snow", link: "" }
+    - { name: "Christian Melsheimer", role: "Passive microwave remoste sensing of snow", link: "" }
+
