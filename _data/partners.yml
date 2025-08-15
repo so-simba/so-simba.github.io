@@ -1,17 +1,17 @@
 - name: NORCE Norwegian Research Centre
   url: https://www.norceresearch.no/
-  logo: /assets/img/logos/NORCE_Logo_Skjerm_Blå.png
+  logo: /assets/img/logos/NORCE_Logo.png
   researchers:
     - { name: "Robert Ricker", role: "Sea-ice remote sensing", link: "mailto:rori@norceresearch.no" }
     - { name: "Jane Doe", role: "Altimetry", link: "" }
 
-- name: Norwegian Meteorological Institute (METNO)
+- name: Norwegian Meteorological Institute
   url: https://www.met.no/en
   logo: /assets/img/logos/METNorway.jpg
   researchers:
     - { name: "Alice Example", role: "Modeling", link: "https://orcid.org/0000-0000-0000-0000" }
 
-- name: University of Bremen (UB)
+- name: University of Bremen
   url: https://www.uni-bremen.de
   logo: /assets/img/logos/UHB_Logo_Web_RGB.png
   researchers:
