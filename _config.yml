@@ -1,3 +1,27 @@
+# --- Site basics ---
 title: "SO-SIMBA"
-description: "Southern Ocean Sea Ice Mass Balance Assessment"
+description: "Southern Ocean Sea Ice Mass Balance project"
+url: "https://so-simba.github.io"
+baseurl: ""
+
+# --- Theme ---
 theme: minima
+
+# --- Navigation (top links) ---
+header_pages:
+  - team.md
+
+# --- Author / Org info ---
+author:
+  name: "SO-SIMBA Consortium"
+  email: "<add a contact email>"
+  github: so-simba
+
+# --- Social links ---
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/so-simba" }
+
+# --- Build settings ---
+markdown: kramdown
+permalink: pretty
