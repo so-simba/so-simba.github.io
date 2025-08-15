@@ -120,24 +120,21 @@ h3.partner-name a { text-decoration: none; }
   .partner-role { color: #aaa; }
 }
 
-/* Keep the header visible while scrolling */
+:root { --header-h: 64px; }  /* tweak to your actual header height */
+
 .site-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;                 /* above page content */
-  background: #fff;              /* solid bg so content doesn't show through */
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+  background: #fff;
   border-bottom: 1px solid rgba(0,0,0,.06);
 }
 
-/* Avoid wrapping/jumping on narrow widths */
-.site-header .wrapper { flex-wrap: nowrap; }
+.page-content { padding-top: var(--header-h); }
+
+/* Optional: ensure in-page anchors aren't hidden under the header */
+.page-content h2, .page-content h3, .page-content h4 { scroll-margin-top: var(--header-h); }
 
 @media (prefers-color-scheme: dark) {
   .site-header { background: #0e0e0e; }
-}
-
-/* Optional: make the mobile dropdown look layered when opened */
-.site-nav .trigger {
-  background: inherit;
-  box-shadow: 0 8px 18px rgba(0,0,0,.08);
 }
