@@ -90,12 +90,12 @@
 
 .partner-meta { margin-top: .25rem; }
 
-h3.partner-name {
+.partner-name {
   font-size: 1.0rem;
   margin: 0 0 .25rem 0;
 }
 
-h3.partner-name a { text-decoration: none; }
+.partner-name a { text-decoration: none; }
 
 .partner-people {
   list-style: none;
@@ -138,4 +138,13 @@ h3.partner-name a { text-decoration: none; }
 
 @media (prefers-color-scheme: dark) {
   .site-header { background: #0e0e0e; }
+}
+
+/* Footer: thin top border to match header bottom */
+.site-footer {
+  background: #f6f8fa;
+  border-top: 1px solid rgba(0,0,0,.06);
+}
+@media (prefers-color-scheme: dark) {
+  .site-footer { border-top: 1px solid rgba(255,255,255,.12); }
 }
