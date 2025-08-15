@@ -126,7 +126,8 @@ h3.partner-name a { text-decoration: none; }
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 1000;
-  background: #fff;
+  background: #f6f8fa;
+  border-top: 1px solid rgba(0,0,0,.06);
   border-bottom: 1px solid rgba(0,0,0,.06);
 }
 
