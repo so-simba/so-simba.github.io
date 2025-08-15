@@ -110,3 +110,13 @@ h3.partner-name a { text-decoration: none; }
 
 .partner-people a { text-decoration: none; }
 .partner-people .role { color: #555; font-size: .95em; }
+
+.partner-role {
+  font-size: 0.9rem;     /* smaller than the name */
+  color: #555;
+  margin: -0.15rem 0 0.35rem 0; /* tighten spacing under the name */
+}
+@media (prefers-color-scheme: dark) {
+  .partner-role { color: #aaa; }
+}
+
