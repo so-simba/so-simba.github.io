@@ -7,9 +7,9 @@ permalink: /
 # Southern Ocean Sea Ice Mass Balance Assessment  
 
 <div style="text-align:center; margin-top: 1.5rem; margin-bottom: 1.5rem;">
-  <img src="{{ 'assets/img/antarctic_seaice.jpg' | relative_url }}" 
+  <img src="/assets/img/antarctic_seaice.jpg" 
        alt="Antarctic sea ice" 
-       style="max-width: 90%; height: auto; border-radius: 4px;">
+       style="max-width:90%; height:auto; border-radius:4px;">
 </div>
 
 
