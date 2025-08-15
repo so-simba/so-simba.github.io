@@ -120,3 +120,24 @@ h3.partner-name a { text-decoration: none; }
   .partner-role { color: #aaa; }
 }
 
+/* Keep the header visible while scrolling */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;                 /* above page content */
+  background: #fff;              /* solid bg so content doesn't show through */
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+
+/* Avoid wrapping/jumping on narrow widths */
+.site-header .wrapper { flex-wrap: nowrap; }
+
+@media (prefers-color-scheme: dark) {
+  .site-header { background: #0e0e0e; }
+}
+
+/* Optional: make the mobile dropdown look layered when opened */
+.site-nav .trigger {
+  background: inherit;
+  box-shadow: 0 8px 18px rgba(0,0,0,.08);
+}
