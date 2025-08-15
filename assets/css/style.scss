@@ -2,23 +2,34 @@
 ---
 @import "{{ site.theme }}";
 
-.site-header {
+/* Header layout: logo + menu aligned left */
+.site-header .wrapper {
   display: flex;
   align-items: center;
+  justify-content: flex-start; /* everything on the left */
+  gap: 1rem; /* space between logo and menu */
+  padding-left: 0; /* flush to left edge */
 }
-.site-title {
-  display: inline-flex;
+
+.site-header .site-title {
+  display: flex;
   align-items: center;
   gap: 0.5rem;
-  letter-spacing: 0.5px;
+  margin: 0;
 }
-.site-title img.logo {
-  height: 28px; /* adjust as needed */
+
+.site-header .site-title .logo {
+  height: 36px; /* adjust as needed */
   width: auto;
+  object-fit: contain;
 }
-.page-content {
-  padding-top: 1.25rem;
+
+.site-header .site-title span {
+  font-size: 1.1rem; /* optional: tweak */
 }
-.site-footer {
-  font-size: 0.9rem;
+
+/* Ensure nav stays inline with logo */
+.site-nav {
+  display: flex;
+  align-items: center;
 }
