@@ -1,6 +1,6 @@
 - name: NORCE Norwegian Research Centre
   url: https://www.norceresearch.no/
-  logo: /assets/img/partners/NORCE_Logo_Skjerm_Blå.png
+  logo: /assets/img/logos/NORCE_Logo_Skjerm_Blå.png
   researchers:
     - { name: "Robert Ricker", role: "Sea-ice remote sensing", link: "mailto:rori@norceresearch.no" }
     - { name: "Jane Doe", role: "Altimetry", link: "" }
