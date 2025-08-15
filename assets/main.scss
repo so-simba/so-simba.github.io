@@ -116,9 +116,6 @@
   color: #555;
   margin: -0.15rem 0 0.35rem 0; /* tighten spacing under the name */
 }
-@media (prefers-color-scheme: dark) {
-  .partner-role { color: #aaa; }
-}
 
 :root { --header-h: 64px; }  /* tweak to your actual header height */
 
@@ -136,15 +133,8 @@
 /* Optional: ensure in-page anchors aren't hidden under the header */
 .page-content h2, .page-content h3, .page-content h4 { scroll-margin-top: var(--header-h); }
 
-@media (prefers-color-scheme: dark) {
-  .site-header { background: #0e0e0e; }
-}
-
 /* Footer: thin top border to match header bottom */
 .site-footer {
   background: #f6f8fa;
   border-top: 1px solid rgba(0,0,0,.06);
-}
-@media (prefers-color-scheme: dark) {
-  .site-footer { border-top: 1px solid rgba(255,255,255,.12); }
 }
