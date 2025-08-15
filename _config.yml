@@ -1,6 +1,6 @@
 # --- Site basics ---
 title: "SO-SIMBA"
-description: "Southern Ocean Sea Ice Mass Balance project"
+description: "Southern Ocean Sea Ice Mass Balance Assessment"
 url: "https://so-simba.github.io"
 baseurl: ""
 
@@ -9,13 +9,13 @@ theme: minima
 
 # --- Navigation (top links) ---
 header_pages:
+  - index.md
   - team.md
 
 # --- Author / Org info ---
 author:
-  name: "SO-SIMBA Consortium"
-  email: "<add a contact email>"
-  github: so-simba
+  name: "Robert Ricker & SO-SIMBA Team"
+  email: "<rori@norceresearch.no>"
 
 # --- Social links ---
 minima:
