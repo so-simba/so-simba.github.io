@@ -110,9 +110,3 @@ h3.partner-name a { text-decoration: none; }
 
 .partner-people a { text-decoration: none; }
 .partner-people .role { color: #555; font-size: .95em; }
-
-/* Dark-mode friendly borders (optional) */
-@media (prefers-color-scheme: dark) {
-  .partner-card { border-color: rgba(255,255,255,.12); background: #0e0e0e; }
-  .partner-people .role { color: #aaa; }
-}
