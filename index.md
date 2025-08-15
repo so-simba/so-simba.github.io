@@ -1,10 +1,6 @@
 ---
 layout: home
-title: "Welcome to SO-SIMBA"
----
-
-> **SO‑SIMBA** — Southern Ocean Sea Ice Mass Balance Assessment: a project to quantify Antarctic sea‑ice mass balance and advance understanding of its interactions with the ocean.
-
+title: "Southern Ocean Sea Ice Mass Balance Assessment"
 ---
 
 ## Background
