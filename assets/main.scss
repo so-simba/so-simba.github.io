@@ -134,7 +134,9 @@
   border-bottom: 1px solid rgba(0,0,0,.06);
 }
 
-.page-content { padding-top: var(--header-h); }
+.page-content {
+  padding-top: calc(var(--header-h) + 1.0rem); 
+}
 
 /* Optional: ensure in-page anchors aren't hidden under the header */
 .page-content h2, .page-content h3, .page-content h4 { scroll-margin-top: var(--header-h); }
