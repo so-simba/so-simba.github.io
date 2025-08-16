@@ -1,21 +1,32 @@
 <div class="wp-card">
-  <h2>{{ wp.id }} – {{ wp.title }}</h2>
-  <p>{{ wp.description }}</p>
+  <h2 class="wp-title">{{ wp.id }} – {{ wp.title }}</h2>
 
-  {% assign subwp_count = wp.subwps | size %}
+  {% assign has_subwps = wp.subwps %}
+  {% assign subwp_count = has_subwps | size %}
 
-  {% if subwp_count > 1 %}
-    <div class="subwp-list">
-      {% for sub in wp.subwps %}
-        <div class="subwp-card">
-          <h3>{{ sub.id }} – {{ sub.title }}</h3>
-          <p>{{ sub.description }}</p>
-        </div>
-      {% endfor %}
+  {%- comment -%} Top-level WP description (bullets) {%- endcomment -%}
+  {% if wp.description %}
+    <div class="wp-desc">
+      {{ wp.description | markdownify }}
     </div>
-  {% elsif subwp_count == 1 %}
-    {% assign sub = wp.subwps[0] %}
-    <h3>{{ sub.id }} – {{ sub.title }}</h3>
-    <p>{{ sub.description }}</p>
+  {% endif %}
+
+  {% if subwp_count and subwp_count > 0 %}
+    <div class="subwp-list">
+      {% if subwp_count == 1 and wp.subwps[0].id == wp.id %}
+        {%- assign sub = wp.subwps[0] -%}
+        <div class="subwp-card">
+          {# no <h3> to avoid duplicate caption #}
+          {{ sub.description | markdownify }}
+        </div>
+      {% else %}
+        {% for sub in wp.subwps %}
+          <div class="subwp-card">
+            <h3 class="subwp-title">{{ sub.id }} – {{ sub.title }}</h3>
+            {{ sub.description | markdownify }}
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
   {% endif %}
 </div>
