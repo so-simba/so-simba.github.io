@@ -1,10 +1,12 @@
 - id: WP1000
   title: "Science Plan Consolidation"
-  description: "Consolidate the scientific plan (methods, specs, test areas, validation strategy, and FAIR data guidelines) to guide product development, uncertainty analysis, and validation."
-  subwps:
-    - id: WP1000
-      title: "Science Plan Consolidation"
-      description: "Literature review; define innovations and target product specs; select test areas; plan uncertainty propagation; compile validation/intercomparison datasets; define comparison metrics and publications."
+  description: |
+    - Literature review
+    - Define innovations and target product specs
+    - Select test areas
+    - Plan uncertainty propagation
+    - Compile validation/intercomparison datasets
+    - Define comparison metrics and publications
 
 - id: WP2000
   title: "EO Product Development, Uncertainty, and Early Validation"
@@ -12,13 +14,24 @@
   subwps:
     - id: WP2100
       title: "Product Development"
-      description: "Implement/refine retrieval algorithms; integrate auxiliary datasets; add uncertainty estimation and multi-sensor merging; produce experimental datasets and methods documentation."
+      description: |
+        - Implement/refine retrieval algorithms
+        - Integrate auxiliary datasets
+        - Add uncertainty estimation and multi-sensor merging
+        - Produce experimental datasets and methods documentation
     - id: WP2200
       title: "Uncertainty Analysis"
-      description: "Provide uncertainties for each input dataset; develop the uncertainty-propagation module; run sensitivity studies on mass-balance estimates."
+      description: |
+        - Provide uncertainties for each input dataset
+        - Develop the uncertainty-propagation module
+        - Run sensitivity studies on mass-balance estimates
     - id: WP2300
       title: "Validation (Phase 1)"
-      description: "Select regions/periods; collect and preprocess evaluation datasets; intercompare/evaluate thickness and snow-depth products; assess sea-ice/snow mass estimates."
+      description: |
+        - Select regions/periods
+        - Collect and preprocess evaluation datasets
+        - Intercompare/evaluate thickness and snow-depth products
+        - Assess sea-ice/snow mass estimates
 
 - id: WP3000
   title: "Data Production, Management, and Final Validation"
@@ -26,10 +39,19 @@
   subwps:
     - id: WP3100
       title: "Data Production and Management"
-      description: "Produce full-length EO product time series; harmonise metadata (ACDD/CF); publish via portals and ESA catalog; assign DOIs; document products and validation results."
+      description: |
+        - Produce full-length EO product time series
+        - Harmonise metadata (ACDD/CF)
+        - Publish via portals and ESA catalog
+        - Assign DOIs
+        - Document products and validation results
     - id: WP3200
       title: "Validation and Intercomparison (Phase 2)"
-      description: "Finalise intercomparison/evaluation of thickness and snow-depth CDRs and merged multi-sensor products; assess uncertainty estimates; feed results into the PDD."
+      description: |
+        - Finalise intercomparison/evaluation of thickness and snow-depth CDRs
+        - Evaluate merged multi-sensor products
+        - Assess uncertainty estimates
+        - Feed results into the PDD
 
 - id: WP4000
   title: "Scientific Analysis and Impact"
@@ -37,40 +59,48 @@
   subwps:
     - id: WP4100
       title: "Scientific Analysis"
-      description: "Combine thickness, snow, and drift CDRs to estimate freshwater contributions; analyse temporal/regional freshwater content (ARGO, mammals, moorings, ships); close freshwater budget; compare with CMIP6."
+      description: |
+        - Combine thickness, snow, and drift CDRs to estimate freshwater contributions
+        - Analyse temporal/regional freshwater content (ARGO, mammals, moorings, ships)
+        - Close freshwater budget
+        - Compare with CMIP6
     - id: WP4200
       title: "Impact Assessment"
-      description: "Evaluate scientific impact and product/model compatibility; summarise WP4100 results; run preliminary checks on benchmarking/experimental datasets to flag anomalies of interest."
+      description: |
+        - Evaluate scientific impact and product/model compatibility
+        - Summarise WP4100 results
+        - Run preliminary checks on benchmarking/experimental datasets
+        - Flag anomalies of interest
 
 - id: WP5000
   title: "Scientific Roadmap"
-  description: "Define the post-project R&D roadmap and observation needs, including in-situ validation and satellite product recommendations (e.g., CRISTAL, CIMR), and links to SCAR/ASPECT."
-  subwps:
-    - id: WP5000
-      title: "Scientific Roadmap"
-      description: "Address technical challenges and observational gaps; recommend future in-situ and satellite developments; build/strengthen international collaborations."
+  description: |
+    - Address technical challenges and observational gaps
+    - Recommend future in-situ and satellite developments (e.g., CRISTAL, CIMR)
+    - Build/strengthen collaborations with SCAR/ASPECT
 
 - id: WP6000
   title: "Collaborative Research"
-  description: "Synthesis against objectives and definition of follow-on research actions, knowledge gaps, and synergies with major initiatives."
-  subwps:
-    - id: WP6000
-      title: "Collaborative Research"
-      description: "Critically analyse results vs. objectives; identify gaps and urgent questions; propose additional scientific/observational/technical developments; outline joint research actions."
+  description: |
+    - Critically analyse results vs. objectives
+    - Identify gaps and urgent questions
+    - Propose additional scientific/observational/technical developments
+    - Outline joint research actions and synergies
 
 - id: WP7000
   title: "Promotion and Outreach"
-  description: "Communication to the science community and public, including project website, datasets, publications, and conference presence."
-  subwps:
-    - id: WP7000
-      title: "Promotion and Outreach"
-      description: "Maintain the project website with monthly updates; publish datasets; promote at major conferences; produce outreach materials and regular Antarctic sea-ice updates via partner channels."
+  description: |
+    - Maintain the project website with monthly updates
+    - Publish datasets
+    - Promote at major conferences
+    - Produce outreach materials
+    - Provide regular Antarctic sea-ice updates via partner channels
 
 - id: WP8000
   title: "Management"
-  description: "Prime management, reporting, meetings, ESA liaison, and contractual administration."
-  subwps:
-    - id: WP8000
-      title: "Management"
-      description: "Coordinate the consortium; monitor progress and deviations; organise meetings; compile minutes and monthly reports; manage invoicing/subcontracts and ESA communications."
-
+  description: |
+    - Coordinate the consortium
+    - Monitor progress and deviations
+    - Organise meetings
+    - Compile minutes and monthly reports
+    - Manage invoicing/subcontracts and ESA communications
