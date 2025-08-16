@@ -1,21 +1,21 @@
 <div class="wp-card">
-  <h2>{{ wp.title }}</h2>
+  <h2>{{ wp.id }} – {{ wp.title }}</h2>
+  <p>{{ wp.description }}</p>
 
-  {% if wp.subwps %}
-    {% if wp.subwps | size > 1 %}
-      <p>{{ wp.description }}</p>
-      <div class="subwp-list">
-        {% for sub in wp.subwps %}
-          <div class="subwp-card">
-            <h3>{{ sub.title }}</h3>
-            {{ sub.description | markdownify }}
-          </div>
-        {% endfor %}
-      </div>
-    {% else %}
-      {{ wp.description | markdownify }}
-    {% endif %}
-  {% else %}
-    {{ wp.description | markdownify }}
+  {% assign subwp_count = wp.subwps | size %}
+
+  {% if subwp_count > 1 %}
+    <div class="subwp-list">
+      {% for sub in wp.subwps %}
+        <div class="subwp-card">
+          <h3>{{ sub.id }} – {{ sub.title }}</h3>
+          <p>{{ sub.description }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  {% elsif subwp_count == 1 %}
+    {% assign sub = wp.subwps[0] %}
+    <h3>{{ sub.id }} – {{ sub.title }}</h3>
+    <p>{{ sub.description }}</p>
   {% endif %}
 </div>
