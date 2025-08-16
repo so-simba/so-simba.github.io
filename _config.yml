@@ -5,7 +5,7 @@ url: "https://so-simba.github.io"
 baseurl: ""
 
 # --- Theme ---
-theme: minima
+theme: minimal
 
 # --- Navigation (top links) ---
 header_pages:
@@ -19,7 +19,7 @@ author:
   email: "rori@norceresearch.no"
 
 # --- Social links ---
-minima:
+minimal:
   social_links:
     - { platform: github,  user_url: "https://github.com/so-simba" }
 
