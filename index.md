@@ -3,7 +3,7 @@ layout: page
 title: "About"
 permalink: /
 ---
-### Background
+
 Antarctic sea ice is crucial for the regional climate of the Southern Ocean and has significant impacts on the global climate system. It stabilizes Antarctic ice shelves by protecting them from the open ocean. In contrast to the Arctic, Antarctic sea ice is predominantly first-year ice, with multi-year ice mostly limited to the western Weddell Sea. While Arctic sea ice has declined dramatically over the past four decades, Antarctic sea ice extent showed little change or slight growth until recently. Record-lows in Antarctic sea ice extent in 2016, 2023 and 2024 require further research, including investigating how those events are reflected in thickness changes and understanding the potential drivers and consequences. Accurate assessment of Antarctic sea ice mass, including its snow cover and snow ice, is essential for understanding freshwater fluxes, ocean circulation, and improving climate models. However, retrieving this information via satellite observations is challenging due to the complex Antarctic snowpack and sea ice dynamics, which introduce significant uncertainties in products derived from active and passive remote sensing measurements.
 
 <div style="text-align:center; margin-top: 1.5rem; margin-bottom: 1.5rem;">
