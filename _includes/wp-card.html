@@ -15,8 +15,13 @@
     </div>
   {% elsif subwp_count == 1 %}
     {% assign sub = wp.subwps[0] %}
-    <h3>{{ sub.id }} – {{ sub.title }}</h3>
-    <p>{{ sub.description }}</p>
+    {% if sub.id == wp.id %}
+      <!-- Just show description, no caption -->
+      <p>{{ sub.description }}</p>
+    {% else %}
+      <!-- Show as a single sub-WP -->
+      <h3>{{ sub.id }} – {{ sub.title }}</h3>
+      <p>{{ sub.description }}</p>
+    {% endif %}
   {% endif %}
 </div>
-
