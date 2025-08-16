@@ -5,7 +5,7 @@ url: "https://so-simba.github.io"
 baseurl: ""
 
 # --- Theme ---
-theme: jekyll-theme-minimal
+theme: minima
 
 # --- Navigation (top links) ---
 header_pages:
