@@ -145,19 +145,16 @@
   border-top: 1px solid rgba(0,0,0,.06);
 }
 
-.wp-card {
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
-  background: #fafafa;
-}
-
 .wp-card h2 {
   font-size: 1.0rem;
   margin-top: 0;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: .25rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fafafa;
+  padding: 1rem;
+  padding-bottom: 0.25rem; /* keeps bottom padding from first rule */
+  border-bottom: 1px solid #ccc; /* extra bottom border */
 }
 
 .subwp-list {
@@ -167,7 +164,7 @@
   margin-top: 1rem;
 }
 
-.subwp-card {
+.subwp-card h3 {
   font-size: 0.9rem;
   background: white;
   border: 1px solid #ddd;
