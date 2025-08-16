@@ -12,6 +12,7 @@ header_pages:
   - index.md
   - team.md
   - work.md
+  - news.md       
 
 # --- Author / Org info ---
 author:
