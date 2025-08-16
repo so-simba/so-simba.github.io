@@ -19,7 +19,7 @@ author:
   email: "rori@norceresearch.no"
 
 # --- Social links ---
-minimal:
+minima:
   social_links:
     - { platform: github,  user_url: "https://github.com/so-simba" }
 
