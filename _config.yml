@@ -11,6 +11,7 @@ theme: minima
 header_pages:
   - index.md
   - team.md
+  - work.md
 
 # --- Author / Org info ---
 author:
