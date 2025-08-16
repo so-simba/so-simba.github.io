@@ -1,0 +1,20 @@
+- id: WP2000
+  title: "Sea Ice Mass Balance Observations"
+  description: "Overall WP description goes here."
+  subwps:
+    - id: WP2100
+      title: "Satellite Data Acquisition"
+      description: "Collect and process relevant satellite datasets."
+    - id: WP2200
+      title: "In-situ Measurements"
+      description: "Field campaigns for validation."
+- id: WP3000
+  title: "Data Processing and Modelling"
+  description: "Overall WP description goes here."
+  subwps:
+    - id: WP3100
+      title: "Data Assimilation"
+      description: "Assimilate sea ice data into models."
+    - id: WP3200
+      title: "Model Validation"
+      description: "Compare model results with observations."
