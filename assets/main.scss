@@ -5,19 +5,6 @@
 /* Load minima defaults */
 @import "minima";
 
-h1 {
-  font-size: 1.8rem;  /* default in minima is ~2.25rem */
-}
-h2 {
-  font-size: 1.5rem;
-}
-h3 {
-  font-size: 1.3rem;
-}
-h4 {
-  font-size: 1.1rem;
-}
-
 /* HEADER LAYOUT: logo + menu aligned left */
 .site-header .wrapper {
   display: flex;
@@ -167,6 +154,7 @@ h4 {
 }
 
 .wp-card h2 {
+  font-size: 1.0rem;
   margin-top: 0;
   border-bottom: 1px solid #ccc;
   padding-bottom: .25rem;
@@ -180,6 +168,7 @@ h4 {
 }
 
 .subwp-card {
+  font-size: 0.9rem;
   background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
