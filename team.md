@@ -4,15 +4,7 @@ title: Team
 permalink: /team/
 ---
 
-## Leads
-- **Project Lead:** <Name>, <Affiliation> — Satellite remote sensing
-- **Co‑Lead:** <Name>, <Affiliation> — Modeling & assimilation
-
-## Team
-- **<Name>**, <Affiliation> — Sea‑ice drift (SAR)
-- **<Name>**, <Affiliation> — Freeboard (GNSS‑R)
-- **<Name>**, <Affiliation> — Altimetry & tides
-- **<Name>**, <Affiliation> — Data management & QA/QC
+The SO-SIMBA team brings together researchers in satellite remote sensing, oceanography, and climate science from across Europe and Canada, combining strengths in spaceborne observations, field measurements, and modelling. 
 
 <div class="partners-grid">
 {% for partner in site.data.partners %}
