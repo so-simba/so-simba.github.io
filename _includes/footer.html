@@ -1,0 +1,59 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        {% if site.author %}
+          <p>
+            {{ site.author.name }}
+            {% if site.author.email %}
+              <a href="mailto:{{ site.author.email }}" aria-label="Email {{ site.author.name }}">
+                <!-- Email icon (Bootstrap envelope) -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v.217l-8 4.8-8-4.8V4z"/>
+                  <path d="M0 6.383l5.803 3.482L0 13.117V6.383zM6.761 10.37l1.239.744 1.239-.744 6.761 4.056H0l6.761-4.056zM10.197 9.865L16 6.383v6.734l-5.803-3.252z"/>
+                </svg>
+              </a>
+            {% endif %}
+          </p>
+        {% endif %}
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="contact-list">
+          {% if site.description %}
+            <li>{{ site.description | escape }}</li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+            <li>
+              <a href="https://github.com/{{ site.github_username }}">
+                <svg class="svg-icon">
+                  <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
+                </svg>
+                <span class="username">{{ site.github_username }}</span>
+              </a>
+            </li>
+          {% endif %}
+          {% if site.twitter_username %}
+            <li>
+              <a href="https://twitter.com/{{ site.twitter_username }}">
+                <svg class="svg-icon">
+                  <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
+                </svg>
+                <span class="username">{{ site.twitter_username }}</span>
+              </a>
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</footer>
