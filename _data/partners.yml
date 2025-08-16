@@ -57,7 +57,7 @@
 - name: Laboratoire d’Etudes en Géophysique et Océanographie Spatiales 
   role: Leader of WP5000.
   url: https://www.legos.omp.eu/en/homepage/
-  logo: /assets/img/logos/LEGOS-logo_500px.png
+  logo: /assets/img/logos/LEGOS-logo_500px.jpg
   researchers:
     - { name: "Sara Fleury", role: "Scientific road map", link: "" }
 
