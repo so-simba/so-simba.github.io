@@ -1,23 +1,63 @@
 - name: NORCE Norwegian Research Centre
-  role: Prime contractor and scientific lead. Leader of WP2.
+  role: Prime contractor and scientific lead. Leader of WP2100.
   url: https://www.norceresearch.no/
   logo: /assets/img/logos/NORCE_Logo.png
   researchers:
     - { name: "Robert Ricker", role: "Scientific Lead", link: "mailto:rori@norceresearch.no" }
-    - { name: "Marion Bocquet", role: "Satellite altimetry, sea ice thickness products", link: "" }
+    - { name: "Marion Bocquet", role: "Satellite altimetry and sea ice thickness products", link: "" }
 
 - name: Norwegian Meteorological Institute
-  role: Leader of WP3.
+  role: Leader of WP2200 and WP3100.
   url: https://www.met.no/en
   logo: /assets/img/logos/METNorway.jpg
   researchers:
+    - { name: "Lara Ferrighi", role: "Data management", link: "" }
     - { name: "Thomas Lavergne", role: "Passive microwave remoste sensing of sea ice", link: "" }
+    - { name: "Signe Aaboe ", role: "Passive microwave remoste sensing of sea ice", link: "" }
 
 - name: University of Bremen
-  role: Leader of WP5.
+  role: Leader of WP5000.
   url: https://www.uni-bremen.de
   logo: /assets/img/logos/UHB_Logo_Web_RGB.png
   researchers:
     - { name: "Gunnar Spreen", role: "Passive microwave remoste sensing of snow", link: "" }
     - { name: "Christian Melsheimer", role: "Passive microwave remoste sensing of snow", link: "" }
+
+- name: University of Manitoba 
+  role: Leader of WP4200.
+  url: https://umanitoba.ca
+  logo: /assets/img/logos/UM-logo-horizontal-black.png
+  researchers:
+    - { name: "Julienne Stroeve", role: "Remote sensing of sea ice and snow, Ku/Ka-band radar altimetry", link: "" }
+    - { name: "Anton Komarov", role: "Ground-based Ku/Ka-band experiments", link: "" }
+
+- name: University of Hamburg 
+  role: Leader of WP2300 and WP3200.
+  url: https://www.uni-hamburg.de
+  logo: /assets/img/logos/uhh-logo.png
+  researchers:
+    - { name: "Dirk Notz", role: "Remote sensing of sea ice and snow, Ku/Ka-band radar altimetry", link: "" }
+    - { name: "Stefan Kern", role: "Validation of sea ice remote sensing products", link: "" }
+    - { name: "Andreas Wernecke", role: "Uncertainties of sea ice remote sensing products", link: "" }
+
+- name: Alfred Wegener Institute 
+  role: Leader of WP4100 and WP6000.
+  url: https://www.awi.de
+  logo: /assets/img/logos/1200px-AWI_Logo_2017.png
+  researchers:
+    - { name: "Alexander Haumann", role: "Sea ice - ocean interactions", link: "" }
+
+- name: University College London 
+  role: Leader of WP1000.
+  url: https://www.ucl.ac.uk
+  logo: /assets/img/logos/2560px-University_College_London_logo.png
+  researchers:
+    - { name: "Michel Tsamados", role: "Science Plan and data interpolation methods", link: "" }
+
+- name: Laboratoire d’Etudes en Géophysique et Océanographie Spatiales 
+  role: Leader of WP5000.
+  url: https://www.legos.omp.eu/en/homepage/
+  logo: /assets/img/logos/LEGOS-logo_500px.png
+  researchers:
+    - { name: "Sara Fleury", role: "Scientific road map", link: "" }
 
