@@ -1,0 +1,12 @@
+<div class="wp-card">
+  <h2>{{ wp.id }} – {{ wp.title }}</h2>
+  <p>{{ wp.description }}</p>
+  <div class="subwp-list">
+    {% for sub in wp.subwps %}
+      <div class="subwp-card">
+        <h3>{{ sub.id }} – {{ sub.title }}</h3>
+        <p>{{ sub.description }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
