@@ -18,6 +18,9 @@ header_pages:
 author:
   name: "Robert Ricker & SO-SIMBA Team"
 
+# --- GitHub ---
+github_username: so-simba
+
 # --- Social links ---
 minima:
   social_links:
