@@ -3,7 +3,7 @@
   url: https://www.norceresearch.no/
   logo: /assets/img/logos/NORCE_Logo.png
   researchers:
-    - { name: "Robert Ricker", role: "Scientific Lead", link: "mailto:rori@norceresearch.no" }
+    - { name: "Robert Ricker", role: "Scientific Lead", link: "" }
     - { name: "Marion Bocquet", role: "Satellite altimetry and sea ice thickness products", link: "" }
 
 - name: Norwegian Meteorological Institute
