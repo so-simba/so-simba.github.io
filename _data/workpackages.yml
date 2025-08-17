@@ -9,98 +9,93 @@
     - Define comparison metrics and publications
 
 - id: WP2000
-  title: "EO Product Development, Uncertainty, and Early Validation"
-  description: "Develop the EO products, quantify input and propagated uncertainties, and run the first validation/intercomparison cycle."
+  title: "Novel Products Development"
+  description: "Develop EO sea ice products, quantify input and propagated uncertainties, and run the first validation cycle."
   subwps:
     - id: WP2100
       title: "Product Development"
       description: |
         - Implement/refine retrieval algorithms
-        - Integrate auxiliary datasets
-        - Add uncertainty estimation and multi-sensor merging
-        - Produce experimental datasets and methods documentation
+        - Implement uncertainty estimation
+        - Develop multi-sensor products
+        - Develop interpolation techniques
+        - Produce experimental datasets for a test period
     - id: WP2200
       title: "Uncertainty Analysis"
       description: |
-        - Provide uncertainties for each input dataset
+        - investigate uncertainty propagation concepts
         - Develop the uncertainty-propagation module
         - Run sensitivity studies on mass-balance estimates
     - id: WP2300
-      title: "Validation (Phase 1)"
+      title: "Validation"
       description: |
-        - Select regions/periods
+        - Select key regions and periods
         - Collect and preprocess evaluation datasets
-        - Intercompare/evaluate thickness and snow-depth products
-        - Assess sea-ice/snow mass estimates
+        - Intercompare/evaluate sea ice thickness and snow products
 
 - id: WP3000
-  title: "Data Production, Management, and Final Validation"
-  description: "Operationalise CDR production with standards-compliant metadata, DOI assignment, publication, and final intercomparison feeding the product docs."
+  title: "Open Science Benchmarking Dataset"
+  description: "Reference dataset production with standards-compliant metadata, DOI assignment, publication, and final intercomparison feeding the product docs."
   subwps:
     - id: WP3100
       title: "Data Production and Management"
       description: |
         - Produce full-length EO product time series
-        - Harmonise metadata (ACDD/CF)
-        - Publish via portals and ESA catalog
-        - Assign DOIs
-        - Document products and validation results
+        - Harmonise metadata (ACDD/CF) and assign DOIs
+        - Dissemination via Arctic Data Centre and ESA EarthCode
+        - Product documentation
     - id: WP3200
-      title: "Validation and Intercomparison (Phase 2)"
+      title: "Validation and Intercomparison"
       description: |
-        - Finalise intercomparison/evaluation of thickness and snow-depth CDRs
-        - Evaluate merged multi-sensor products
+        - Complete intercomparison/evaluation of sea ice thickness and snow products
         - Assess uncertainty estimates
-        - Feed results into the PDD
+        - Feed results into the Product description document
 
 - id: WP4000
   title: "Scientific Analysis and Impact"
-  description: "Quantify freshwater contributions from sea ice and snow using new CDRs and assess the scientific impact and compatibility with models and existing products."
+  description: "Quantify freshwater contributions from sea ice and snow using new reference datasets and assess the scientific impact and compatibility with models and existing products."
   subwps:
     - id: WP4100
       title: "Scientific Analysis"
       description: |
-        - Combine thickness, snow, and drift CDRs to estimate freshwater contributions
-        - Analyse temporal/regional freshwater content (ARGO, mammals, moorings, ships)
-        - Close freshwater budget
-        - Compare with CMIP6
+        - Combine sea ice thickness, drift, and snow reference datasets to estimate contributions to the regional freshwater budget of the Southern Ocean
+        - Estimate the temporal and regional evolution of the freshwater content of the Southern Ocean from data collected by ARGO float, instrumented marine mammals, moorings, and ships
+        - Estimate the residual of the budget from closing the balance between changes in oceanic freshwater content and the redistribution of freshwater through the drift of sea ice and snow
+        - Comparison with CMIP6 simulations
     - id: WP4200
       title: "Impact Assessment"
       description: |
         - Evaluate scientific impact and product/model compatibility
-        - Summarise WP4100 results
-        - Run preliminary checks on benchmarking/experimental datasets
         - Flag anomalies of interest
+        - Publication of results in peer-reviewed journals.
 
 - id: WP5000
   title: "Scientific Roadmap"
   description: |
     - Address technical challenges and observational gaps
     - Recommend future in-situ and satellite developments (e.g., CRISTAL, CIMR)
-    - Build/strengthen collaborations with SCAR/ASPECT
 
 - id: WP6000
   title: "Collaborative Research"
   description: |
-    - Critically analyse results vs. objectives
     - Identify gaps and urgent questions
     - Propose additional scientific/observational/technical developments
-    - Outline joint research actions and synergies
+    - Outline joint research actions and synergies with existing projects/activities
+    - Build/strengthen collaborations with SCAR/ASPECT
 
 - id: WP7000
   title: "Promotion and Outreach"
   description: |
-    - Maintain the project website with monthly updates
-    - Publish datasets
-    - Promote at major conferences
+    - Maintain the project website
+    - Promote SO-SIMBA at major conferences
     - Produce outreach materials
     - Provide regular Antarctic sea-ice updates via partner channels
 
 - id: WP8000
   title: "Management"
   description: |
-    - Coordinate the consortium
+    - Coordinate research and manage the consortium
     - Monitor progress and deviations
     - Organise meetings
     - Compile minutes and monthly reports
-    - Manage invoicing/subcontracts and ESA communications
+    - Manage invoicing/subcontracts
