@@ -12,8 +12,8 @@
   logo: /assets/img/logos/METNorway.jpg
   researchers:
     - { name: "Lara Ferrighi", role: "Data management", link: "" }
-    - { name: "Thomas Lavergne", role: "Passive microwave remoste sensing of sea ice", link: "" }
-    - { name: "Signe Aaboe", role: "Passive microwave remoste sensing of sea ice", link: "" }
+    - { name: "Thomas Lavergne", role: "Passive microwave remote sensing of sea ice", link: "" }
+    - { name: "Signe Aaboe", role: "Passive microwave remote sensing of sea ice", link: "" }
     - { name: "Fabien Collas", role: "Propagation of uncertainty", link: "" }
     - { name: "Emily Down", role: "Satellite-derived sea ice drift", link: "" }
 
@@ -22,8 +22,8 @@
   url: https://www.uni-bremen.de
   logo: /assets/img/logos/UHB_Logo_Web_RGB.png
   researchers:
-    - { name: "Gunnar Spreen", role: "Passive microwave remoste sensing of snow", link: "" }
-    - { name: "Christian Melsheimer", role: "Passive microwave remoste sensing of snow", link: "" }
+    - { name: "Gunnar Spreen", role: "Passive microwave remote sensing of snow", link: "" }
+    - { name: "Christian Melsheimer", role: "Passive microwave remote sensing of snow", link: "" }
 
 - name: University of Manitoba 
   role: Leader of WP4200.
