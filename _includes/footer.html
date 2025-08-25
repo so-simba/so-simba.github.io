@@ -18,36 +18,29 @@
           </p>
         {% endif %}
 
-        <ul class="social-media-list">
-          {% if gh_user %}
-            <li>
-              <a href="https://github.com/{{ gh_user }}" target="_blank" rel="noopener">
-                <svg class="svg-icon">
-                  <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
-                </svg>
-                <span class="username">{{ gh_user }}</span>
-              </a>
-            </li>
-          {% endif %}
-          {% if site.twitter_username %}
-            <li>
-              <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener">
-                <svg class="svg-icon">
-                  <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
-                </svg>
-                <span class="username">{{ site.twitter_username }}</span>
-              </a>
-            </li>
-          {% endif %}
-        </ul>
+        {% if gh_user %}
+          <p>
+            GitHub: <a href="https://github.com/{{ gh_user }}" target="_blank" rel="noopener">
+              https://github.com/{{ gh_user }}
+            </a>
+          </p>
+        {% endif %}
+
+        {% if site.twitter_username %}
+          <p>
+            Twitter: <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener">
+              https://twitter.com/{{ site.twitter_username }}
+            </a>
+          </p>
+        {% endif %}
       </div>
 
       <div class="footer-col footer-col-2"></div>
 
-      <!-- Right: ESA funding note (no disclaimer) -->
+      <!-- Right: ESA funding note -->
       <div class="footer-col footer-col-3">
         <p class="funding-note">
-          Funded by the European Space Agency (ESA).
+          Funded by the European Space Agency (ESA) — Contract No. 4000123456/24/NL/ABC.
         </p>
       </div>
     </div>
