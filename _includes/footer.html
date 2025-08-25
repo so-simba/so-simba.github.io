@@ -10,16 +10,19 @@
       <!-- Left: author + email + GitHub/Twitter -->
       <div class="footer-col footer-col-1">
         {% if author_name %}
-          <p>
-            {{ author_name }}<br>
-            {% if author_email %}
-              <a href="mailto:{{ author_email }}">{{ author_email }}</a>
-            {% endif %}
+          <p class="footer-entry">
+            {{ author_name }}
+          </p>
+        {% endif %}
+
+        {% if author_email %}
+          <p class="footer-entry">
+            Contact: <a href="mailto:{{ author_email }}">{{ author_email }}</a>
           </p>
         {% endif %}
 
         {% if gh_user %}
-          <p>
+          <p class="footer-entry">
             <a href="https://github.com/{{ gh_user }}" target="_blank" rel="noopener">
               <svg class="svg-icon" style="vertical-align: middle;">
                 <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
@@ -30,7 +33,7 @@
         {% endif %}
 
         {% if site.twitter_username %}
-          <p>
+          <p class="footer-entry">
             <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener">
               <svg class="svg-icon" style="vertical-align: middle;">
                 <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
