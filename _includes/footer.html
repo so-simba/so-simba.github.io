@@ -7,12 +7,10 @@
 
   <div class="wrapper">
     <div class="footer-col-wrapper">
-      <!-- Left: author + email + GitHub/Twitter -->
-      <div class="footer-col footer-col-1">
+      <!-- Left column: author + contact + GitHub/Twitter -->
+      <div class="footer-col footer-col-left">
         {% if author_name %}
-          <p class="footer-entry">
-            {{ author_name }}
-          </p>
+          <p class="footer-entry">{{ author_name }}</p>
         {% endif %}
 
         {% if author_email %}
@@ -44,10 +42,8 @@
         {% endif %}
       </div>
 
-      <div class="footer-col footer-col-2"></div>
-
-      <!-- Right: ESA funding note -->
-      <div class="footer-col footer-col-3">
+      <!-- Right column: ESA funding note -->
+      <div class="footer-col footer-col-right">
         <p class="funding-note">
           Funded by the European Space Agency (ESA)
         </p>
