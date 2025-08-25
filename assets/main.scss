@@ -269,3 +269,57 @@
   margin: 0 0 .25rem 0;
   line-height: 1.45;
 }
+
+/* Button area centered (no background box) */
+.site-nav .menu-icon{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:44px;
+  height:44px;
+  padding:0;
+  margin:0;
+  background:transparent;
+  border:0;
+  cursor:pointer;
+}
+
+/* Symmetric hamburger: bars around the center */
+:root{
+  --burger-w: 22px;      /* bar width */
+  --burger-t: 2px;       /* bar thickness */
+  --burger-gap: 6px;     /* distance from middle to top/bottom bars */
+  --burger-color: #0e1116;
+}
+
+.hamburger{
+  position:relative;
+  width:var(--burger-w);
+  height:var(--burger-t);
+  background:var(--burger-color);
+  border-radius:2px;
+}
+
+/* top and bottom bars placed equally around the center */
+.hamburger::before,
+.hamburger::after{
+  content:"";
+  position:absolute;
+  left:0; right:0;
+  height:var(--burger-t);
+  background:var(--burger-color);
+  border-radius:2px;
+  transform-origin:50% 50%;
+}
+.hamburger::before{ transform: translateY(calc(-1 * var(--burger-gap))); }
+.hamburger::after { transform: translateY(var(--burger-gap)); }
+
+/* Open state → clean X from the same center */
+#nav-trigger:checked + .menu-icon .hamburger{ background:transparent; }
+#nav-trigger:checked + .menu-icon .hamburger::before{
+  transform: rotate(45deg);          /* was centered already, no translate needed */
+}
+#nav-trigger:checked + .menu-icon .hamburger::after{
+  transform: rotate(-45deg);
+}
+
