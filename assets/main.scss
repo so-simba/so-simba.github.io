@@ -246,8 +246,8 @@
   position: relative;
   transition: transform .25s ease, opacity .2s ease, top .25s ease, bottom .25s ease, background .25s ease;
 }
-.site-nav .hamburger::before { position: absolute; top: 6px; }
-.site-nav .hamburger::after  { position: absolute; bottom: -1px; }
+.site-nav .hamburger::before { position: absolute; top: -6px; }
+.site-nav .hamburger::after  { position: absolute; bottom: -6px; }
 
 /* Open state → “X” */
 #nav-trigger:checked + .menu-icon .hamburger { background: transparent; }
