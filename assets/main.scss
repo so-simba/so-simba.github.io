@@ -96,16 +96,6 @@
   #nav-trigger ~ .trigger { display: block !important; }
 } 
 
-/* Mobile tweaks */ 
-@media (max-width: 600px) { 
-  .site-title .logo {
-    height: 30px;
-  } 
-  .site-nav .menu-icon svg {
-    width: 14px;
-  } 
-}
-
 /* --- Partner grid & cards --- */
 .partners-grid {
   display: grid;
