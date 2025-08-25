@@ -22,7 +22,7 @@
 }
 
 .site-title .logo {
-  height: 46px; /* adjust to make logo smaller/larger */
+  height: 48px; /* adjust to make logo smaller/larger */
   width: auto;
   object-fit: contain;
 }
@@ -42,7 +42,7 @@
 /* Hide the checkbox accessibly */
 .nav-trigger {
   position: absolute !important;
-  width: 2px; height: 2px;
+  width: 1px; height: 1px;
   padding: 0; margin: -1px;
   overflow: hidden; clip: rect(0,0,0,0);
   white-space: nowrap; border: 0;
