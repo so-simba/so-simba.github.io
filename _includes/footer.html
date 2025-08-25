@@ -7,6 +7,7 @@
 
   <div class="wrapper">
     <div class="footer-col-wrapper">
+      
       <!-- Left column: author + contact + GitHub/Twitter -->
       <div class="footer-col footer-col-left">
         {% if author_name %}
@@ -21,22 +22,22 @@
 
         {% if gh_user %}
           <p class="footer-entry">
-            <a href="https://github.com/{{ gh_user }}" target="_blank" rel="noopener">
-              <svg class="svg-icon" style="vertical-align: middle;">
-                <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
-              </svg>
-              GitHub: https://github.com/{{ gh_user }}
+            <svg class="svg-icon" style="vertical-align: middle;">
+              <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
+            </svg>
+            GitHub: <a href="https://github.com/{{ gh_user }}" target="_blank" rel="noopener">
+              https://github.com/{{ gh_user }}
             </a>
           </p>
         {% endif %}
 
         {% if site.twitter_username %}
           <p class="footer-entry">
-            <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener">
-              <svg class="svg-icon" style="vertical-align: middle;">
-                <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
-              </svg>
-              Twitter: https://twitter.com/{{ site.twitter_username }}
+            <svg class="svg-icon" style="vertical-align: middle;">
+              <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
+            </svg>
+            Twitter: <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener">
+              https://twitter.com/{{ site.twitter_username }}
             </a>
           </p>
         {% endif %}
@@ -45,7 +46,7 @@
       <!-- Right column: ESA funding note -->
       <div class="footer-col footer-col-right">
         <p class="funding-note">
-          Funded by the European Space Agency (ESA)
+          Funded by the European Space Agency (ESA) — Contract No. 4000123456/24/NL/ABC.
         </p>
       </div>
     </div>
