@@ -208,4 +208,9 @@
   line-height: 1.45;
 }
 
-
+.funding-note {
+  font-size: 0.85rem;
+  color: #555;        
+  text-align: right;  /* right align */
+  margin: 0;          /* remove default paragraph spacing */
+}
