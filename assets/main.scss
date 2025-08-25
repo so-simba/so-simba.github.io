@@ -238,3 +238,16 @@
   margin: 0.25rem 0;
   text-align: right;
 }
+
+.license-note {
+  color: inherit;          
+  text-align: right;
+  margin: 0.25rem 0 0 0;
+}
+.license-note a {
+  color: #0366d6;
+  text-decoration: none;
+}
+.license-note a:hover {
+  text-decoration: underline;
+}
