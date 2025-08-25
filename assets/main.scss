@@ -239,9 +239,9 @@
 .site-nav .hamburger::after {
   content: "";
   display: block;
-  width: 20px;
-  height: 2px;
-  border-radius: 2px;
+  width: 90px;
+  height: 20px;
+  border-radius: 20px;
   background: #0e1116;
   position: relative;
   transition: transform .25s ease, opacity .2s ease, top .25s ease, bottom .25s ease, background .25s ease;
