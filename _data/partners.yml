@@ -13,7 +13,9 @@
   researchers:
     - { name: "Lara Ferrighi", role: "Data management", link: "" }
     - { name: "Thomas Lavergne", role: "Passive microwave remoste sensing of sea ice", link: "" }
-    - { name: "Signe Aaboe ", role: "Passive microwave remoste sensing of sea ice", link: "" }
+    - { name: "Signe Aaboe", role: "Passive microwave remoste sensing of sea ice", link: "" }
+    - { name: "Fabien Collas", role: "Propagation of uncertainty", link: "" }
+    - { name: "Emily Down", role: "Satellite-derived sea ice drift", link: "" }
 
 - name: University of Bremen
   role: Leader of WP5000.
@@ -36,9 +38,11 @@
   url: https://www.uni-hamburg.de
   logo: /assets/img/logos/uhh-logo.png
   researchers:
-    - { name: "Dirk Notz", role: "Remote sensing of sea ice and snow, Ku/Ka-band radar altimetry", link: "" }
-    - { name: "Stefan Kern", role: "Validation of sea ice remote sensing products", link: "" }
-    - { name: "Andreas Wernecke", role: "Uncertainties of sea ice remote sensing products", link: "" }
+    - { name: "Dirk Notz", role: "Sea ice - ocean interactions, WP4000", link: "" }
+    - { name: "Stefan Kern", role: "Validation of sea ice remote sensing products, WP2300 & WP3200", link: "" }
+    - { name: "Andreas Wernecke", role: "Uncertainties of sea ice remote sensing products, WP2200", link: "" }
+    - { name: "Sarah Thomae", role: "WP4000", link: "" }
+    - { name: "Lea Dietz", role: "WP4000", link: "" }
 
 - name: Alfred Wegener Institute 
   role: Leader of WP4100 and WP6000.
@@ -52,7 +56,9 @@
   url: https://www.ucl.ac.uk
   logo: /assets/img/logos/2560px-University_College_London_logo.png
   researchers:
-    - { name: "Michel Tsamados", role: "Science Plan and data interpolation methods", link: "" }
+    - { name: "Michel Tsamados", role: "Science Plan, data interpolation methods and scientific analysis", link: "" }
+    - { name: "Sabrina Sofea Binti Aliff Raziuddin", role: "Data interpolation methods, WP2100", link: "" }
+    - { name: "Connor Nelson", role: "Snowpack modeling, WP2100", link: "" }
 
 - name: Laboratoire d’Etudes en Géophysique et Océanographie Spatiales 
   role: Leader of WP5000.
