@@ -150,7 +150,7 @@
 .footer-col-wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;   /* beide Spalten oben bündig */
+  align-items: flex-start; 
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -234,8 +234,7 @@
 }
 
 .funding-note {
-  font-size: 1rem;  
   color: inherit;    
-  margin: 0.35rem 0;
+  margin: 0.25rem 0;
   text-align: right;
 }
