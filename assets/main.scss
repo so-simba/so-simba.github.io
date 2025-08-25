@@ -147,6 +147,21 @@
   border-top: 1px solid rgba(0,0,0,.06);
 }
 
+/* Einheitlicher Abstand zwischen allen linken Einträgen */
+.footer-entry {
+  margin: 0.35rem 0;   /* gleichmäßiger Abstand oben/unten */
+}
+
+/* Einheitliche Linkfarbe für Email/GitHub/Twitter */
+.footer-col-1 a {
+  color: #0366d6;         /* GitHub-typisches Blau (wie Standard-Linkfarbe) */
+  text-decoration: none;
+}
+
+.footer-col-1 a:hover {
+  text-decoration: underline;
+}
+
 /* Outer WP card */
 .wp-card {
   border: 1px solid #ddd;
