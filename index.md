@@ -4,7 +4,6 @@ title: "About SO-SIMBA"
 permalink: /
 ---
 
-### About SO-SIMBA
 The **Southern Ocean Sea Ice Mass Balance Assessment (SO-SIMBA)** is a research project funded by the European Space Agency (ESA).
 
 ### Background
