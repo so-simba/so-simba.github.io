@@ -33,6 +33,8 @@
   white-space: nowrap;
 }
 
+:root { --header-h: 64px; } /* set to your real header height */
+
 /* --- Partner grid & cards --- */
 .partners-grid {
   display: grid;
