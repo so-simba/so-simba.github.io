@@ -209,20 +209,11 @@
 
 /* NAVIGATION STYLING */ 
 .site-nav {
-  /* Tunables */
-  --bar-width: 20px;
-  --bar-thickness: 2px;
-  --bar-gap: 6px;              /* distance between bars */
-  --bar-radius: 2px;
-  --bar-color: #0e1116;
-  --hit-size: 44px;            /* touch target */
-  --bp-desktop: 800px;
-
   display: flex;
   align-items: center;
-}
+} 
 
-/* Visually hide the checkbox, keep it accessible */
+/* Hide the checkbox accessibly */
 .nav-trigger {
   position: absolute !important;
   width: 1px; height: 1px;
@@ -231,62 +222,52 @@
   white-space: nowrap; border: 0;
 }
 
-/* Hamburger (3 bars) */
-.site-nav .menu-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: var(--hit-size);
-  height: var(--hit-size);
-  background: transparent;
-  border: none;
-  box-shadow: none;
-  cursor: pointer;
-}
-
+/* Three bars */
 .site-nav .hamburger,
 .site-nav .hamburger::before,
 .site-nav .hamburger::after {
   content: "";
   display: block;
-  width: var(--bar-width);
-  height: var(--bar-thickness);
-  border-radius: var(--bar-radius);
-  background: var(--bar-color);
+  width: 20px;
+  height: 2px;
+  border-radius: 2px;
+  background: #0e1116;
   position: relative;
-  transition:
-    transform .25s ease,
-    opacity .2s ease,
-    top .25s ease,
-    bottom .25s ease,
-    background .25s ease;
+  transition: transform .25s ease, opacity .2s ease, top .25s ease, bottom .25s ease, background .25s ease;
 }
-.site-nav .hamburger::before { position: absolute; top: calc(-1 * var(--bar-gap)); }
-.site-nav .hamburger::after  { position: absolute; bottom: calc(-1 * var(--bar-gap)); }
+.site-nav .hamburger::before { position: absolute; top: -6px; }
+.site-nav .hamburger::after  { position: absolute; bottom: -6px; }
 
-/* Toggle: hamburger → “X” and panel visibility */
+/* Button hit area */
+.site-nav .menu-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: transparent; /* remove any fill */
+  border: none;            /* remove any border */
+  box-shadow: none;        /* if shadows exist */
+}
+
+/* Open state → “X” */
 #nav-trigger:checked + .menu-icon .hamburger { background: transparent; }
 #nav-trigger:checked + .menu-icon .hamburger::before {
-  top: 0; transform: rotate(45deg);
+  top: 0;
+  transform: rotate(45deg);
 }
 #nav-trigger:checked + .menu-icon .hamburger::after {
-  bottom: 0; transform: rotate(-45deg);
+  bottom: 0;
+  transform: rotate(-45deg);
 }
 
-/* Panel toggle (mobile) */
-#nav-trigger ~ .trigger { display: none; }
+/* Show/hide the menu panel (keep your existing .trigger styles, this just toggles it) */
+#nav-trigger:not(:checked) ~ .trigger { display: none; }
 #nav-trigger:checked ~ .trigger { display: block; }
 
-/* Desktop: inline menu, no burger */
-@media (min-width: var(--bp-desktop)) {
-  .site-nav .menu-icon { display: none !important; }
-  #nav-trigger ~ .trigger { display: block !important; }
-}
-
-/* Optional: reduce motion for users who prefer it */
-@media (prefers-reduced-motion: reduce) {
-  .site-nav .hamburger,
-  .site-nav .hamburger::before,
-  .site-nav .hamburger::after { transition: none; }
+/* Desktop: hide burger, show inline nav */
+@media (min-width:800px){
+  .site-nav .menu-icon{ display:none !important; }
+  #nav-trigger ~ .trigger{ display:block !important; }
 }
 
