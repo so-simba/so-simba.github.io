@@ -245,6 +245,9 @@
   justify-content: center;
   width: 44px;
   height: 44px;
+  background: transparent; /* remove any fill */
+  border: none;            /* remove any border */
+  box-shadow: none;        /* if shadows exist */
 }
 
 /* Open state → “X” */
