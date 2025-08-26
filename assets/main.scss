@@ -207,72 +207,25 @@
   line-height: 1.45;
 }
 
-/* NAVIGATION STYLING */ 
+/* NAVIGATION STYLING */
 .site-nav {
   display: flex;
   align-items: center;
-} 
-
-/* Hide the checkbox accessibly */
-.nav-trigger {
-  position: absolute !important;
-  width: 1px; height: 1px;
-  padding: 0; margin: -1px;
-  overflow: hidden; clip: rect(0,0,0,0);
-  white-space: nowrap; border: 0;
 }
 
-/* Three bars */
-.site-nav .hamburger,
-.site-nav .hamburger::before,
-.site-nav .hamburger::after {
-  content: "";
-  display: block;
-  width: 20px;
-  height: 2px;
-  border-radius: 2px;
-  background: #0e1116;
-  position: relative;
-  transition: transform .25s ease, opacity .2s ease, top .25s ease, bottom .25s ease, background .25s ease;
-}
-.site-nav .hamburger::before { position: absolute; top: -6px; }
-.site-nav .hamburger::after  { position: absolute; bottom: -6px; }
-
-/* Button hit area */
-.site-nav .menu-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: auto;
+/* Burger menu icon size (desktop + mobile) */
+.site-nav .menu-icon svg {
+  width: 16px;  /* smaller burger icon */
   height: auto;
-  padding: -5px;
-  background: transparent !important; /* remove any fill */
-  border: none !important;            /* remove any border */
-  box-shadow: none;        /* if shadows exist */
 }
 
-.site-nav .menu-icon {
-  transform: translate(8px, 15px); /* move the whole hamburger stack */
-}
-
-/* Open state → “X” */
-#nav-trigger:checked + .menu-icon .hamburger { background: transparent; }
-#nav-trigger:checked + .menu-icon .hamburger::before {
-  top: 0;
-  transform: rotate(45deg);
-}
-#nav-trigger:checked + .menu-icon .hamburger::after {
-  bottom: 0;
-  transform: rotate(-45deg);
-}
-
-/* Show/hide the menu panel (keep your existing .trigger styles, this just toggles it) */
-#nav-trigger:not(:checked) ~ .trigger { display: none; }
-#nav-trigger:checked ~ .trigger { display: block; }
-
-/* Desktop: hide burger, show inline nav */
-@media (min-width:800px){
-  .site-nav .menu-icon{ display:none !important; }
-  #nav-trigger ~ .trigger{ display:block !important; }
+/* Mobile tweaks */
+@media (max-width: 600px) {
+  .site-title .logo {
+    height: 30px;
+  }
+  .site-nav .menu-icon svg {
+    width: 14px;
+  }
 }
 
