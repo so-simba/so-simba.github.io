@@ -238,6 +238,10 @@
 .site-nav .hamburger::before { position: absolute; top: -6px; }
 .site-nav .hamburger::after  { position: absolute; bottom: -6px; }
 
+.site-nav .hamburger {
+  transform: translate(5px, 3px); /* 5px right, 10px down */
+}
+
 /* Button hit area */
 .site-nav .menu-icon {
   display: inline-flex;
